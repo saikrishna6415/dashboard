@@ -1,0 +1,180 @@
+.right-part {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+.right-part-mobile {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-title {
+    font-size: 24px;
+    color: black;
+}
+.header-title-mobile {
+    font-size: 18px;
+    color: black;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+.search-bar-mobile {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+.search-icon {
+    padding: 5px;
+}
+.search-icon-mobile {
+    padding: 2px;
+}
+
+.search-icon i {
+    color: #ccc;
+    font-size: 18px;
+}
+.search-icon-mobile i {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+    color: #3a3c48;
+}
+.search-input-mobile {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 2px;
+    font-size: 14px;
+    color: #3a3c48;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.cards-mobile{
+    display: flex;
+    flex-direction: column;
+}
+.cardimage{
+    width: 150px;
+    height: 150px,
+}
+.cardimage-mobile{
+    width: 100px;
+    height: 100px,
+} 
+.card {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-mobile {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-title {
+    opacity: 0.8;
+    margin-bottom: -12px;
+}
+.card-title-mobile {
+    opacity: 0.8;
+    margin-bottom: -6px;
+}
+
+.card-amount {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.card-amount-mobile {
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #6c757d;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.card-text-mobile {
+    font-size: 12px;
+    color: #6c757d;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.value-rise {
+    color: #28a745;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.value-rise-mobile {
+    color: #28a745;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.value-fall {
+    color: #dc3545;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.value-fall-mobile {
+    color: #dc3545;
+    font-weight: bold;
+    margin-right: 3px;
+}
